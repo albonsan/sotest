@@ -1,34 +1,33 @@
-Application source code:
+- Application source code:  
 Please refer to interpreter.c
 
-Libraries source code:
+- Libraries source code:  
 Please refer to tetslib01.c and testlib02.c
 
-Script used for testing:
+- Script used for testing:  
 Please refer to testscript.sc
 
-Compilation instructions:
-1. Compile tetslib01.c and testlib02.c files to generate the tetslib01.so and tetslib02.so libs.
-$ gcc -shared -o testlib01.so -fPIC testlib01.c
-$ gcc -shared -o testlib02.so -fPIC testlib02.c
+- Compilation instructions:
+  - Compile tetslib01.c and testlib02.c files to generate the tetslib01.so and tetslib02.so libs.     $ gcc -shared -o testlib01.so -fPIC testlib01.c  
+  $ gcc -shared -o testlib02.so -fPIC testlib02.c
 
-2. Compile the interpreter.c file.
-$ gcc -o interpreter interpreter.c -ld
+  - Compile the interpreter.c file.  
+  $ gcc -o interpreter interpreter.c -ld
 
-3. Execute the script:
-$ ./interpreter testscript.sc
+  - Execute the script.  
+  $ ./interpreter testscript.sc
 
-Screenshot evidence:
-Please find the screenshots in the /evidence directory
+- Screenshot evidence:  
+Please find the screenshots in the /evidence directory  
 
-Compilation:
-![img-compilation](/evidence/compilation.png)
+**Compilation:**  
+![img-compilation](/evidence/compilation.png)  
 
-Script execution:
-![img-execution](/evidence/execution_script.png)
+**Script execution:**  
+![img-execution](/evidence/execution_script.png)  
 
-Interactive execution:
-![img-interactive](/evidence/execution_interactive.png)
+**Interactive execution:**  
+![img-interactive](/evidence/execution_interactive.png)  
 
-Validations:
+**Validations:**  
 ![img-validations](/evidence/validations.png)
