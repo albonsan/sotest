@@ -1,3 +1,5 @@
+# Scripting language interpreter 
+
 - Application source code:  
 Please refer to interpreter.c
 
@@ -5,7 +7,7 @@ Please refer to interpreter.c
 Please refer to tetslib01.c and testlib02.c
 
 - Script used for testing:  
-Please refer to testscript.sc
+Please refer to testscript.sc (Support for comments ('#', ';') and line breaks have been implemented).
 
 - Compilation instructions:
   - Compile tetslib01.c and testlib02.c files to generate the tetslib01.so and tetslib02.so libs.  
@@ -18,8 +20,11 @@ Please refer to testscript.sc
   - Execute the script.  
   $ ./interpreter testscript.sc
 
+  - Execute the interactive mode. (Entering commands directly from the terminal).  
+  $ ./interpreter
+
 - Screenshot evidence:  
-Please find the screenshots in the /evidence directory  
+Please find the screenshots with the demostration in the /evidence directory  
 
 **Compilation:**  
 ![img-compilation](/evidence/compilation.png)  
