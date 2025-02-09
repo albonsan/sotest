@@ -8,7 +8,8 @@ Please refer to tetslib01.c and testlib02.c
 Please refer to testscript.sc
 
 - Compilation instructions:
-  - Compile tetslib01.c and testlib02.c files to generate the tetslib01.so and tetslib02.so libs.     $ gcc -shared -o testlib01.so -fPIC testlib01.c  
+  - Compile tetslib01.c and testlib02.c files to generate the tetslib01.so and tetslib02.so libs.  
+  $ gcc -shared -o testlib01.so -fPIC testlib01.c  
   $ gcc -shared -o testlib02.so -fPIC testlib02.c
 
   - Compile the interpreter.c file.  
