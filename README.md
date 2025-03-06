@@ -15,7 +15,7 @@ Please refer to testscript.sc (Support for comments ('#', ';') and line breaks h
   $ gcc -shared -o testlib02.so -fPIC testlib02.c
 
   - Compile the interpreter.c file.  
-  $ gcc -o interpreter interpreter.c -ld
+  $ gcc -o interpreter interpreter.c -ldl
 
   - Execute the script.  
   $ ./interpreter testscript.sc
